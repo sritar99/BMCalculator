@@ -11,7 +11,7 @@ import Foundation
 class MarginViewController: UIViewController, UITableViewDelegate {
 
     var StockList :[StockCell] = [
-//        StockCell(tradingsymbol: "APOLLOTYRE", mis_multiplier: 12.5),
+        StockCell(tradingsymbol: "APOLLOTYRE", mis_multiplier: 12.5),
     ]
     var StockName : String!
     var multi:Float!
@@ -32,7 +32,7 @@ class MarginViewController: UIViewController, UITableViewDelegate {
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(UINib(nibName: "ListCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
-
+        
         
         
         // Do any additional setup after loading the view.
@@ -58,7 +58,9 @@ class MarginViewController: UIViewController, UITableViewDelegate {
                     if let safeData = data {
     //                    let dataString = String(data: safeData, encoding: .utf8)
     //                    print(dataString)
-                        self.parseJSON(stockData: safeData)
+                        DispatchQueue.main.async{
+                            self.parseJSON(stockData: safeData)
+                        }
                     }
 
                 }
@@ -79,18 +81,22 @@ class MarginViewController: UIViewController, UITableViewDelegate {
                 
                 for i in decodedData{
                     self.StockList.append(StockCell(tradingsymbol: i.tradingsymbol,mis_multiplier: i.mis_multiplier))
+                    
                 }
-                
-                
+                                
             }catch{
                 print(error)
             }
-            self.StockList.remove(at: 0)
+//            self.StockList.remove(at: 0)
+            
 //            print(self.StockList.count)
 //            for i in StockList{
 //                self.List["\(i.tradingsymbol)"] = i.mis_multiplier
 //            }
+            self.tableView.reloadData()
         }
+        
+
     
     
        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -129,6 +135,7 @@ extension MarginViewController: UITableViewDataSource{
         as! ListCell
 //        cell.titleLabel.text = Array(List)[indexPath.row].key
         cell.titleLabel.text = self.StockList[indexPath.row].tradingsymbol
+
         
         return cell
     }
