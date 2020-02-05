@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73CFD88E7E7F12A37AE9C3A3 /* Pods_BMCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9F62D335AE93BC3541043F /* Pods_BMCalc.framework */; };
+		8D5C7E5F23EAD799001899F8 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C7E5E23EAD799001899F8 /* LaunchViewController.swift */; };
+		8D5C7E6123EAE3DB001899F8 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C7E6023EAE3DB001899F8 /* CategoryViewController.swift */; };
 		8D5D436A23E6D244004A856E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D436923E6D244004A856E /* AppDelegate.swift */; };
 		8D5D436C23E6D244004A856E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D436B23E6D244004A856E /* SceneDelegate.swift */; };
-		8D5D436E23E6D244004A856E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D436D23E6D244004A856E /* FirstViewController.swift */; };
-		8D5D437023E6D244004A856E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D436F23E6D244004A856E /* SecondViewController.swift */; };
+		8D5D436E23E6D244004A856E /* MarginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D436D23E6D244004A856E /* MarginViewController.swift */; };
+		8D5D437023E6D244004A856E /* BrokerageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D436F23E6D244004A856E /* BrokerageViewController.swift */; };
 		8D5D437323E6D244004A856E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5D437123E6D244004A856E /* Main.storyboard */; };
 		8D5D437523E6D249004A856E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5D437423E6D249004A856E /* Assets.xcassets */; };
 		8D5D437823E6D249004A856E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5D437623E6D249004A856E /* LaunchScreen.storyboard */; };
+		8D5D438423E73419004A856E /* StockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D438323E73419004A856E /* StockList.swift */; };
+		8D5D438823E748BC004A856E /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D438723E748BC004A856E /* StockCell.swift */; };
+		8DA5CCC223EB08C700E1AF75 /* IpoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5CCC123EB08C700E1AF75 /* IpoViewController.swift */; };
+		8DA5CCC523EB384300E1AF75 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5CCC323EB384300E1AF75 /* ListCell.swift */; };
+		8DA5CCC623EB384300E1AF75 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DA5CCC423EB384300E1AF75 /* ListCell.xib */; };
+		8DA5CCC823EB4A4600E1AF75 /* StockviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5CCC723EB4A4600E1AF75 /* StockviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79CCA06EB5D5D5C7C567F60E /* Pods-BMCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMCalc.debug.xcconfig"; path = "Target Support Files/Pods-BMCalc/Pods-BMCalc.debug.xcconfig"; sourceTree = "<group>"; };
+		8CD08878AB4E653C1339825B /* Pods-BMCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMCalc.release.xcconfig"; path = "Target Support Files/Pods-BMCalc/Pods-BMCalc.release.xcconfig"; sourceTree = "<group>"; };
+		8D5C7E5E23EAD799001899F8 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		8D5C7E6023EAE3DB001899F8 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		8D5D436623E6D244004A856E /* BMCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5D436923E6D244004A856E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D5D436B23E6D244004A856E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D5D436D23E6D244004A856E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8D5D436F23E6D244004A856E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8D5D436D23E6D244004A856E /* MarginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarginViewController.swift; sourceTree = "<group>"; };
+		8D5D436F23E6D244004A856E /* BrokerageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerageViewController.swift; sourceTree = "<group>"; };
 		8D5D437223E6D244004A856E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D5D437423E6D249004A856E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5D437723E6D249004A856E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D5D437923E6D249004A856E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5D438323E73419004A856E /* StockList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockList.swift; sourceTree = "<group>"; };
+		8D5D438723E748BC004A856E /* StockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
+		8DA5CCC123EB08C700E1AF75 /* IpoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpoViewController.swift; sourceTree = "<group>"; };
+		8DA5CCC323EB384300E1AF75 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		8DA5CCC423EB384300E1AF75 /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		8DA5CCC723EB4A4600E1AF75 /* StockviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockviewViewController.swift; sourceTree = "<group>"; };
+		FF9F62D335AE93BC3541043F /* Pods_BMCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73CFD88E7E7F12A37AE9C3A3 /* Pods_BMCalc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		520C5BFC7BA0D31B00062B29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79CCA06EB5D5D5C7C567F60E /* Pods-BMCalc.debug.xcconfig */,
+				8CD08878AB4E653C1339825B /* Pods-BMCalc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75CCAF3B29CBD8CEA7471E0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF9F62D335AE93BC3541043F /* Pods_BMCalc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8D5D435D23E6D244004A856E = {
 			isa = PBXGroup;
 			children = (
 				8D5D436823E6D244004A856E /* BMCalc */,
 				8D5D436723E6D244004A856E /* Products */,
+				520C5BFC7BA0D31B00062B29 /* Pods */,
+				75CCAF3B29CBD8CEA7471E0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +100,46 @@
 			children = (
 				8D5D436923E6D244004A856E /* AppDelegate.swift */,
 				8D5D436B23E6D244004A856E /* SceneDelegate.swift */,
-				8D5D436D23E6D244004A856E /* FirstViewController.swift */,
-				8D5D436F23E6D244004A856E /* SecondViewController.swift */,
-				8D5D437123E6D244004A856E /* Main.storyboard */,
+				8D5D438523E7341E004A856E /* Models */,
+				8DA5CCC923EB4A5E00E1AF75 /* Views */,
+				8D5D438623E7342E004A856E /* Controllers */,
 				8D5D437423E6D249004A856E /* Assets.xcassets */,
 				8D5D437623E6D249004A856E /* LaunchScreen.storyboard */,
 				8D5D437923E6D249004A856E /* Info.plist */,
 			);
 			path = BMCalc;
+			sourceTree = "<group>";
+		};
+		8D5D438523E7341E004A856E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D438323E73419004A856E /* StockList.swift */,
+				8D5D438723E748BC004A856E /* StockCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D5D438623E7342E004A856E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D436D23E6D244004A856E /* MarginViewController.swift */,
+				8D5D436F23E6D244004A856E /* BrokerageViewController.swift */,
+				8D5C7E5E23EAD799001899F8 /* LaunchViewController.swift */,
+				8D5C7E6023EAE3DB001899F8 /* CategoryViewController.swift */,
+				8DA5CCC123EB08C700E1AF75 /* IpoViewController.swift */,
+				8DA5CCC723EB4A4600E1AF75 /* StockviewViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8DA5CCC923EB4A5E00E1AF75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D437123E6D244004A856E /* Main.storyboard */,
+				8DA5CCC423EB384300E1AF75 /* ListCell.xib */,
+				8DA5CCC323EB384300E1AF75 /* ListCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D5D437C23E6D249004A856E /* Build configuration list for PBXNativeTarget "BMCalc" */;
 			buildPhases = (
+				CF5846A2C62EA4CDBD01D0DE /* [CP] Check Pods Manifest.lock */,
 				8D5D436223E6D244004A856E /* Sources */,
 				8D5D436323E6D244004A856E /* Frameworks */,
 				8D5D436423E6D244004A856E /* Resources */,
@@ -129,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5D437823E6D249004A856E /* LaunchScreen.storyboard in Resources */,
+				8DA5CCC623EB384300E1AF75 /* ListCell.xib in Resources */,
 				8D5D437523E6D249004A856E /* Assets.xcassets in Resources */,
 				8D5D437323E6D244004A856E /* Main.storyboard in Resources */,
 			);
@@ -136,15 +210,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CF5846A2C62EA4CDBD01D0DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BMCalc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D5D436223E6D244004A856E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5D437023E6D244004A856E /* SecondViewController.swift in Sources */,
-				8D5D436E23E6D244004A856E /* FirstViewController.swift in Sources */,
+				8D5D438423E73419004A856E /* StockList.swift in Sources */,
+				8D5D437023E6D244004A856E /* BrokerageViewController.swift in Sources */,
+				8DA5CCC223EB08C700E1AF75 /* IpoViewController.swift in Sources */,
+				8DA5CCC523EB384300E1AF75 /* ListCell.swift in Sources */,
+				8D5D436E23E6D244004A856E /* MarginViewController.swift in Sources */,
 				8D5D436A23E6D244004A856E /* AppDelegate.swift in Sources */,
+				8D5D438823E748BC004A856E /* StockCell.swift in Sources */,
 				8D5D436C23E6D244004A856E /* SceneDelegate.swift in Sources */,
+				8D5C7E6123EAE3DB001899F8 /* CategoryViewController.swift in Sources */,
+				8D5C7E5F23EAD799001899F8 /* LaunchViewController.swift in Sources */,
+				8DA5CCC823EB4A4600E1AF75 /* StockviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +392,14 @@
 		};
 		8D5D437D23E6D249004A856E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CCA06EB5D5D5C7C567F60E /* Pods-BMCalc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAQ3H6MLH6;
 				INFOPLIST_FILE = BMCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_NO_PIE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,17 +407,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sriharsha.BMCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8D5D437E23E6D249004A856E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD08878AB4E653C1339825B /* Pods-BMCalc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAQ3H6MLH6;
 				INFOPLIST_FILE = BMCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_NO_PIE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +428,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sriharsha.BMCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
